@@ -12,7 +12,8 @@ print("Exponentiation:", a ** b) # Multiply a by itself b times
 print("Floor Division:", a // b) # Divide a by b and round down to the nearest whole number
 
 
-# Assignment Operatorsx = 10
+# Assignment Operators
+x = 10
 print(x) # Assign the value 10 to x
 
 x = 10
