@@ -11,9 +11,8 @@ print("Modulus:", a % b)         # Helps to find the remainder
 print("Exponentiation:", a ** b) # Multiply a by itself b times
 print("Floor Division:", a // b) # Divide a by b and round down to the nearest whole number
 
-# Assignment Operators
 
-x = 10
+# Assignment Operatorsx = 10
 print(x) # Assign the value 10 to x
 
 x = 10
@@ -44,8 +43,8 @@ x = 10
 x //= 3
 print(x) # Floor Division and Assign
 
-#Comparison Operators
 
+#Comparison Operators
 a = 10
 b = 5
 print(a == b)  # Equal 
