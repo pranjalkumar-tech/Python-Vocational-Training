@@ -29,6 +29,20 @@ SI = (P * R * T) / 100
 print("Simple Interest is", SI)
 
 # Swap Two Variables: a = 10, b = 20
+# 1st Method: Using 3rd variable
+a = 10
+b = 20
+print("Before swapping:")
+print("a =", a)
+print("b =", b)
+temp = a # temp = 10
+a = b    # a = 20
+b = temp # b = 10
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+ 
+# 2nd Method: Using without 3rd variable
 a = 10
 b = 20
 print("Before swapping: a =", a, "b =", b)
