@@ -1,7 +1,4 @@
 # Take your name as input and print it.
-import numbers
-
-
 name = input("Enter your name: ")
 print("Your name is", name)
 
