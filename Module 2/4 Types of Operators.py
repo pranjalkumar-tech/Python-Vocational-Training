@@ -54,3 +54,54 @@ print(a > b)   # Greater than
 print(a < b)   # Less than
 print(a >= b)  # Greater than or equal 
 print(a <= b)  # Less than or equal 
+
+# Logical Operators: Check multiple conditions.
+#Truth table of 'or' operator
+#If anyone is true then the result is true
+print("True or False is ", True or False) #it will return true
+print("True or True is ", True or True) #it will return true
+print("False or True is ", False or True) #it will return true
+print("False or False is ", False or False) #it will return false
+
+# Truth table of 'and' operator
+#If anyone is false then the result is false
+print("True and False is ", True and False) #it will return false
+print("True and True is ", True and True) #it will return true
+print("False and True is ", False and True) #it will return false
+print("False and False is ", False and False) #it will return false
+
+#truth table of 'not' operator
+#It reverse the value of the operand
+print(not(True)) #it will return false
+print(not(False)) #it will return true
+
+
+# Identity Operators: # Check if both variables refer to the same object
+# is Operator
+x = 10        # Assign 10 to x
+y = x         # # y refers to the same object as x
+print(x is y) # It is true, because both variables refer to the same object
+
+# is not operator
+x = [10, 20]  # Create first list
+y = [10, 20]  # Create second list with same values
+print(x == y) # Compare values
+print(x is y) # Compare objects
+
+
+# Membership Operators
+# in operator
+# # 1st example: on string 
+name = "Pranjal"   # Create a string
+print("P" in name) # Check if 'P' is present in the string
+# 2nd example: on list
+numbers = [10, 20, 30, 40]  # Create a list
+print(20 in numbers)        # Check if 20 is present in the list
+
+# not in operator
+# 1st example: on string 
+name = "Pranjal"       # Create a string
+print("k" not in name) # Check if 'k' is not present in the string
+# 2nd example: on list
+numbers = [10, 20, 30, 40]  # Create a list
+print(50 not in numbers)    # Check if 50 is not present in the list
