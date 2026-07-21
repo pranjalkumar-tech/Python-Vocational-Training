@@ -1,4 +1,4 @@
-# Types of Control Statements
+# Type of Control Statements
 
 # Conditional Statements
 
@@ -38,5 +38,3 @@ if age >= 18:
         print("Cannot apply for a driving license")
 else:
     print("Not eligible to vote")
-
-# Looping Statements
