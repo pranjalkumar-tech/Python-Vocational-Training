@@ -1,13 +1,13 @@
-#Naming Convention
+# Naming Convention
 
-#Snake Case	
+# Snake Case
 Name = "student_name"
 print(Name)
 
-#Camel Case
+# Camel Case
 Name = "studentName"
 print(Name)
 
-#Pascal Case
+# Pascal Case
 Name = "StudentName"
 print(Name)

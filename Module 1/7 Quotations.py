@@ -1,16 +1,16 @@
-#Types of Quotation:-
+# Types of Quotation:-
 
-#Single Quotes
-name='Python'
+# Single Quotes
+name = "Python"
 print(name)
 
-#Double Quotes
-name="Python"
+# Double Quotes
+name = "Python"
 print(name)
 
-#Triple Quote
+# Triple Quote
 
-text="""Welcome
+text = """Welcome
 to
 Python"""
 print(text)
