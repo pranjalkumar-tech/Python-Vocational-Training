@@ -9,7 +9,7 @@ while condition:
     # Step 3: Code to repeat
     # Code
     # Step 4: Update
-    variable = variable + 1    # or -1, *2, etc."""
+    variable = variable + 1 or -1, *2, etc."""
 
 # Show numbers from 1 to 5
 number = 1
