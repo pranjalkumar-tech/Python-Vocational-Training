@@ -41,3 +41,46 @@ for num in range(1, 6):  # Start = 1, Stop = 6
 for number in range(1, 11, 2):
     print(number)
 # __________________________________________________________________________________________________________________________________________________________________________
+
+
+# Break Statement (Stops):
+# Using this in a for loop:
+for number in range(1, 11, 1):
+    if number == 5:
+        break
+    print(number)
+
+# Using this in a while loop:
+number = 0
+while number <= 10:
+    if number == 5:
+        break
+    number += 1
+    print(number)
+# __________________________________________________________________________________________________________________________________________________________________________
+
+
+# Continue Statemrnt (Skip):
+# in for loop:
+for num in range(1, 11, 1):
+    if num == 3:
+        continue
+    print(num)
+
+# in while loop:
+num = 0
+while num <= 10:
+    if num == 4:
+        num += 1
+        continue
+    print(num)
+    num += 1
+# __________________________________________________________________________________________________________________________________________________________________________
+
+
+# Pass Statement:
+count = 0  # Starting value
+while count <= 3:  # Run while count is less than or equal to 3
+    pass  # Do nothing
+    count += 1
+print("Done")  # Print after the loop finishes
