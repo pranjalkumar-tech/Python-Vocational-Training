@@ -1,7 +1,7 @@
 # Types of Quotation:-
 
 # Single Quotes
-name = "Python"
+name = 'Python'
 print(name)
 
 # Double Quotes
