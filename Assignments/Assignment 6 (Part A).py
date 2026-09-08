@@ -138,5 +138,66 @@ else:
 #__________________________________________________________________________________________________________________________________________________________________________
 
 
-## 8. Print Prime Numbers
+# 8. Print Prime Numbers
 # Print all prime numbers between 1 and 100.
+
+for number in range(2, 101):
+    prime = True
+
+    for i in range(2, number):
+        if number % i == 0:
+            prime = False
+            break
+
+    if prime:
+        print(number)
+#__________________________________________________________________________________________________________________________________________________________________________
+
+
+# 9. Number Guessing Game
+# Store a secret number. Keep asking the user to guess until they guess correctly. Display:
+# - Too High
+# - Too Low
+# - Correct
+
+secret_number = 50
+
+while True:
+    guess = int(input("Guess the number: "))
+
+    if guess > secret_number:
+        print("Too High")
+    elif guess < secret_number:
+        print("Too Low")
+    else:
+        print("Correct")
+        break
+#__________________________________________________________________________________________________________________________________________________________________________
+
+
+# 10. Student Grade Report
+# Input marks for 5 students. Print each student's grade (A, B, C, D, F) and then display the class average.
+
+total = 0
+
+for i in range(1, 6):
+    marks = float(input("Enter marks for student " + str(i) + ": "))
+
+    total = total + marks
+
+    if marks >= 90:
+        grade = "A"
+    elif marks >= 80:
+        grade = "B"
+    elif marks >= 70:
+        grade = "C"
+    elif marks >= 60:
+        grade = "D"
+    else:
+        grade = "F"
+
+    print("Student", i, "Grade:", grade)
+
+average = total / 5
+
+print("Class Average:", average)
